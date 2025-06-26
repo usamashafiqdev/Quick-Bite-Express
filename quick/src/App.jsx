@@ -17,7 +17,7 @@ export default function Home() {
 
   const handleAuthClick = (type) => {
     setAuthModal({ isOpen: true, type })
-  }
+  } 
 
   const handleAuthClose = () => {
     setAuthModal({ isOpen: false, type: "login" })

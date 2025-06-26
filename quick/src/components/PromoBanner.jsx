@@ -13,7 +13,7 @@ export default function PromoBanner() {
           </button>
         </div>
         <div className="hidden md:block">
-          <img src="/placeholder.svg?height=150&width=200" alt="Food" className="w-48 h-32 object-cover rounded-lg" />
+          <img src="..//assets..//p1.jpg height=150&width=200" alt="Food" className="w-48 h-32 object-cover rounded-lg" />
         </div>
       </div>
     </div>
