@@ -1,4 +1,6 @@
 "use client"
+import p1 from '../assets/bd1.avif';
+
 
 export default function PromoBanner() {
   return (
@@ -13,7 +15,10 @@ export default function PromoBanner() {
           </button>
         </div>
         <div className="hidden md:block">
-          <img src="..//assets..//p1.jpg height=150&width=200" alt="Food" className="w-48 h-32 object-cover rounded-lg" />
+          {/* <img src="..//assets..//p1.avif height=150&width=200" alt="Food" className="w-48 h-32 object-cover rounded-lg" /> */}
+
+          {/* <img src={p1} alt="Food" className="w-1 h-32 object-cover rounded-lg" /> */}
+
         </div>
       </div>
     </div>

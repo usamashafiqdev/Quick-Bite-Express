@@ -1,44 +1,53 @@
-"use client"
 
+import i1 from '../..//assets/p1.jpg'
+import i3 from '../..//assets/p3.jpg'
+import i2 from '../..//assets/p2.jpg'
+import i4 from '../..//assets/p4.jpg'
 import RestaurantCard from "../RestaurantCard"
 import CollectionCard from "../CollectionCard"
 import PromoBanner from "../PromoBanner"
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
-import d2 from '../..//assets/d2.avif'
+import img1 from '../..//assets/img1.avif'
+import img2 from '../..//assets/img2.webp'
+import img3 from '../..//assets/img3.webp'
+import img4 from '../..//assets/img4.avif'
+import img5 from '../..//assets/img5.avif'
+import img6 from '../..//assets/img24.avif'
+import img7 from '../..//assets/img7.avif'
+import img8 from '../..//assets/img8.avif'
+import img9 from '../..//assets/img9.avif'
+import img10 from '../..//assets/img10.avif'
+import img11 from '../..//assets/img11.webp'
+import img12  from '../..//assets/img12.webp'
+import img13 from '../..//assets/img13.webp'
+import img14 from '../..//assets/img14.avif'
+import img15 from '../..//assets/img15.avif'
+import img16 from '../..//assets/img16.avif'
+import img17 from '../..//assets/img17.avif'
+import img18 from '../..//assets/img18.avif'
+import img19 from '../..//assets/img19.webp'
+import img20 from '../..//assets/img20.avif'
+import img21 from '../..//assets/img21.avif'
+import img22 from '../..//assets/img22.avif'
+import img23 from '../..//assets/img23.avif'
+import img24 from '../..//assets/img24.avif'
+import img25 from '../..//assets/img25.avif'
+import img26 from '../..//assets/img26.webp'
+import img27 from '../..//assets/img27.avif'
+import img28 from '../..//assets/img28.avif'
+import img29 from '../..//assets/img29.avif'
+import img30 from '../..//assets/img30.webp'
+import img31 from '../..//assets/img31.avif'
+import img32 from '../..//assets/img32.avif'
+import img33 from '../..//assets/img33.avif'
+import img34 from '../..//assets/img34.avif'
+import img35 from '../..//assets/img40.webp'
+import img36 from '../..//assets/img36.avif'
+import img37 from '../..//assets/img37.avif'
+import img38 from '../..//assets/img38.webp'
+import img39 from '../..//assets/img39.webp'
+import img40 from '../..//assets/one.avif'
+
+
 
 
 const nightlifeVenues = [
@@ -536,28 +545,28 @@ const nightlifeCollections = [
     id: "1",
     title: "Insta-worthy Spots",
     subtitle: "Trending nightlife spots",
-    image: "/placeholder.svg?height=250&width=300",
+    image: i1,
     places: 30,
   },
   {
     id: "2",
     title: "Top Trending Spots",
     subtitle: "Most popular bars",
-    image: "/placeholder.svg?height=250&width=300",
+    image: i2,
     places: 25,
   },
   {
     id: "3",
     title: "Secret Speakeasy Bars",
     subtitle: "Hidden cocktail bars",
-    image: "/placeholder.svg?height=250&width=300",
+    image: i3,
     places: 15,
   },
   {
     id: "4",
     title: "Romantic Dining Places",
     subtitle: "Perfect for couples",
-    image: "/placeholder.svg?height=250&width=300",
+    image: i4,
     places: 40,
   },
 ]
