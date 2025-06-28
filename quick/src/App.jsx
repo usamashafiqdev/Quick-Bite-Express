@@ -1,5 +1,6 @@
 "use client"
 
+import Footer from "./components/Footer"
 
 
 import { useState } from "react"
@@ -35,7 +36,7 @@ import c2 from "./assets/c2.png";
 import c3 from "./assets/c3.png"; 
 import c4 from "./assets/c4.jpeg"; 
 import c5 from "./assets/c5.png"; 
-import c6 from "./assets/c5.png"; 
+import c6 from "./assets/c15.png"; 
 import c7 from "./assets/c7.png"; 
 import c8 from "./assets/c8.avif"; 
 import c9 from "./assets/c9.avif"; 
@@ -45,15 +46,6 @@ import c12 from "./assets/c12.avif";
 import c13 from "./assets/c13.jpeg"; 
 import c14 from "./assets/c14.png"; 
 import c15 from "./assets/c15.png"; 
-
-
-
-
-
-
-
-
-
 
 
 
@@ -115,7 +107,7 @@ const moreItems = [
   { id: 18, name: "MEG", image:c3},
   { id: 19, name: "Chunk N Cheese", image:c4},
   { id: 20, name: "Subway", image:c5},
-  { id: 21, name: "Fish", image:c6},
+  { id: 21, name: "Papa Johns", image:c15},
   { id: 22, name: "Burger King", image: c7},
   { id: 23, name: "Mages", image:c8},
   { id: 24, name: "Empire", image: c9},
@@ -168,6 +160,8 @@ const moreItems = [
         onClose={handleAuthClose}
         onSwitchType={handleAuthSwitch}
       />
+
+      <Footer/>
     </div>
   )
 }

@@ -15,7 +15,7 @@ export default function Header({ onAuthClick }) {
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-red-500 rounded flex items-center justify-center">
                 {/* Logo placeholder */}
-                <span className="text-white font-bold text-sm">uuuu</span>
+                <span className="text-white font-bold text-sm">QBE</span>
               </div>
               <span className="text-xl font-bold text-gray-900 hidden sm:block">Quick Bite Express</span>
             </div>

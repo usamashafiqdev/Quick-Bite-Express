@@ -112,15 +112,15 @@ export function FoodSlider({ title, items }) {
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover/item:bg-opacity-10 rounded-full transition-all duration-300"></div>
 
                     {/* Pulse Effect */}
-                    <div className="absolute inset-0 rounded-full border-2 border-orange-400 opacity-0 group-hover/item:opacity-100 group-hover/item:animate-ping"></div>
+                    <div className="absolute inset-0 rounded-full border-2 border-red-400 opacity-0 group-hover/item:opacity-100 group-hover/item:animate-ping"></div>
                   </div>
 
-                  <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-700 group-hover/item:text-orange-600 transition-colors duration-300 leading-tight">
+                  <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-700 group-hover/item:text-red-600 transition-colors duration-300 leading-tight">
                     {item.name}
                   </p>
 
                   {/* Hover Underline Effect */}
-                  <div className="h-0.5 bg-orange-400 w-0 group-hover/item:w-full transition-all duration-300 mx-auto mt-1"></div>
+                  <div className="h-0.5 bg-red-400 w-0 group-hover/item:w-full transition-all duration-300 mx-auto mt-1"></div>
                 </div>
               </div>
             ))}
@@ -134,7 +134,7 @@ export function FoodSlider({ title, items }) {
               key={index}
               className={`transition-all duration-300 rounded-full ${
                 Math.floor(currentIndex / itemsPerView) === index
-                  ? "bg-orange-500 w-8 h-3"
+                  ? "bg-red-500 w-8 h-3"
                   : "bg-gray-300 hover:bg-gray-400 w-3 h-3 hover:scale-125"
               }`}
               onClick={() => handleDotClick(index * itemsPerView)}
@@ -145,7 +145,7 @@ export function FoodSlider({ title, items }) {
         {/* Progress Bar */}
         <div className="w-full bg-gray-200 h-1 rounded-full mt-4 overflow-hidden">
           <div
-            className="bg-gradient-to-r from-orange-400 to-pink-400 h-full rounded-full transition-all duration-500"
+            className="bg-gradient-to-r from-red-400 to-red-600 h-full rounded-full transition-all duration-500"
             style={{
               width: `${((currentIndex + itemsPerView) / items.length) * 100}%`,
             }}
