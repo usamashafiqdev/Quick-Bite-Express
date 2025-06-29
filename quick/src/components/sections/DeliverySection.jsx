@@ -110,7 +110,7 @@ export default function DeliverySection() {
         ))}
       </div>
 
-     
+    
     </div>
   )
 }
