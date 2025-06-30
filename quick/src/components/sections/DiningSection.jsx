@@ -302,15 +302,21 @@ const collections = [
 
 export default function DiningSection() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+    
+    >
       <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Collections</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-2"
+        
+        >Collections</h2>
         <p className="text-gray-600">
           Explore curated lists of top restaurants, cafes, pubs, and bars in Lahore, based on trends
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"
+      
+      >
         {collections.map((collection) => (
           <CollectionCard key={collection.id} collection={collection} />
         ))}

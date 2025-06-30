@@ -68,7 +68,7 @@ export default function Header({ onAuthClick }) {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <div className="flex items-center space-x-2 px-3 py-2 text-gray-600">
                 <MapPin className="w-4 h-4 text-red-500" />
-                <span className="text-sm">Delhi NCR</span>
+                <span className="text-sm">Lahore, Punjab</span>
               </div>
               <div className="px-3 py-2">
                 <div className="relative">

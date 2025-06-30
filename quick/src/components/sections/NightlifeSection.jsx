@@ -577,7 +577,7 @@ export default function NightlifeSection() {
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Collections</h2>
         <p className="text-gray-600">
-          Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends
+          Explore curated lists of top restaurants, cafes, and  Cocktailbars in Lahore, based on trends
         </p>
       </div>
 
@@ -590,7 +590,7 @@ export default function NightlifeSection() {
       <PromoBanner />
 
       <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Nightlife: Night clubs, pubs and bar in Delhi NCR</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Nightlife: Night clubs, and Cocktailbars in Lahore</h2>
         <p className="text-gray-600">Discover the best nightlife experiences</p>
       </div>
 
@@ -600,11 +600,11 @@ export default function NightlifeSection() {
         ))}
       </div>
 
-      <div className="mt-12 text-center">
+      {/* <div className="mt-12 text-center">
         <button className="bg-red-500 text-white px-8 py-3 rounded-lg font-medium hover:bg-red-600 transition-colors">
           View More Places
         </button>
-      </div>
+      </div> */}
     </div>
   )
 }
